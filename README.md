@@ -40,8 +40,18 @@ This project investigates the molecular effects of river-derived polar organic p
 8. Pathway enrichment
 9. Biological interpretation
 
----
+### Workflow overview
 
+<img src="images/project workflow.png" width="900">
+
+### Multi-omics methods
+
+<img src="images/Multiomics methods.png" width="900">
+
+### Annotation workflow
+
+<img src="images/annotation workflow.png" width="900">
+---
 ##  Computational Methods
 
 - Iterative Random Forest (iRF)
@@ -55,12 +65,40 @@ This project investigates the molecular effects of river-derived polar organic p
 
 ---
 
-##  Key Results
+## Key Results
 
-- Identified candidate biomarkers associated with environmental pollutants.
-- Integrated transcriptomics and metabolomics to reveal coordinated molecular responses.
-- Constructed co-expression networks highlighting biologically relevant modules.
-- Performed functional annotation and pathway enrichment to identify detoxification and stress-response pathways.
+### Molecular response to chemical burden
+
+<img src="images/Molecular Response vs Water Contamination scatter plot.png" width="900">
+
+### Positive metabolomics heatmap
+
+<img src="images/Positive Metabolomics heatmap.png" width="900">
+
+### Negative metabolomics heatmap
+
+<img src="images/Negative metabolomics heatmap.png" width="900">
+
+
+### Pearson correlation (Positive metabolites)
+
+<img src="images/metabolites positive.png" width="900">
+
+### Pearson correlation (Negative metabolites)
+
+<img src="images/Metabolites negative.png" width="900">
+
+### Gene-metabolite interaction network
+
+<img src="images/Gene-Metabolite interaction network.png" width="900">
+
+### WGCNA module-trait relationships
+
+<img src="images/WGCNA module-trait heatmap.png" width="900">
+
+### Iterative Random Forest model performance
+
+<img src="images/ROC CURVE.png" width="900">
 
 ---
 
@@ -97,15 +135,6 @@ Only analysis code, processed summary results, and project documentation are pro
 
 ---
 
-##  Future Improvements
-
-- Interactive visualisation dashboard
-- Additional multi-omics integration approaches
-- Validation using external datasets
-- Expanded biological pathway analysis
-
----
-
 ##  Author
 
 **Prithvi Athreya Jagadish**
@@ -114,7 +143,3 @@ MSc Bioinformatics
 University of Birmingham
 
 ---
-
-##  License
-
-This repository is intended for educational and research purposes.
